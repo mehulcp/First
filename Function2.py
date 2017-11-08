@@ -11,5 +11,5 @@ string_movie_data = filehandle.read()
 movie_names = []
 movie_data_all = string_movie_data.split('\n')
 
-movie_names = getAllFirstElement(movie_data_all[1:len(movie_data_all)])
+movie_names = getAllFirstElement(movie_data_all[1:2])
 print(movie_names)
